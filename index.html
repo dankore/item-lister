@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Item Lister</title>
 </head>
-<body>
+<body class="bg-light">
     <header id="main-header" class="bg-success text-white p-4 mb-5">
         <div class="container">
             <div class="row">
@@ -23,19 +23,23 @@
     </header>
     <div class="container">
         <div id="main" class="card card-body">
-            <h2 class="title">Add Items</h2>
+            <h1 class="title">Add Items</h1>
             <form id="addForm" class="form-inline mb-3">
                 <input type="text" class="form-control mr-2" id="item">
                 <input type="submit" class="btn btn-dark" value="Submit">
             </form>
-            <h2 id="first-title" class="title">Added Items Appears Below</h2>
+            <h4 id="first-title" class="title">Added Items Appears Below</h4>
             <h2 id="my-list" style ="display: none">My List</h2>
             <ul id="items" class="list-group">
-                
             </ul>
         </div>
+        
     </div>
-
+<div class="twitter mt-5">
+    <a href="https://twitter.com/adamuMdankore" class="twitter-follow-button" data-show-count="false">Follow
+        @TwitterDev</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
     <script src="main.js"></script>
 </body>

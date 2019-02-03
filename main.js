@@ -44,9 +44,6 @@ function addItem(e) {
 
      // select element and display it
      document.getElementById('my-list').style.display = 'block';
-
-    
-
 }
 
 // remove item function
@@ -76,8 +73,3 @@ function filterItems(e) {
         }
     })
 }
-
-//<li class="list-group-item">Item 1 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
-//<li class="list-group-item">Item 2 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
-//    <li class="list-group-item">Item 3 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
-//    <li class="list-group-item">Item 4 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
